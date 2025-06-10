@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+.logo span {
+    color: red;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.login-btn {
+    padding: 8px 12px;
+    background: pink;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 40px;
+}
+
+.hero-text h1 {
+    max-width: 500px;
+}
+
+.cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.services {
+    padding: 40px;
+    background: #f9f9f9;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.service img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.contact {
+    background: #00c2c2;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
